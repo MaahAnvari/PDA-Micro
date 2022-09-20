@@ -11,6 +11,9 @@ Conversely, if the speaker has a lower voice (such as males), the base frequency
 </p>
 
 The topic of time and frequency has seen the introduction of numerous PDA algorithms. The suggested algorithm in this project is based on computing the input audio signal's time-domain autocorrelation.
+
+<img src="./images/unvoiceAuto.png" width="400" height="150">     <img src="./images/voiceAuto.png" width="400" height="150">
+
 The correlation value (inner product or points) between the signal and its own delay is the autocorrelation function of a discrete signal, such as a sampled audio signal, in terms of a delay. To put it another way, the autocorrelation function in terms of lag l for a discrete signal n(x) with finite energy is as follows:
 
 
